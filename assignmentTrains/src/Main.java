@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
         // Создаем ArrayList с поездами
         ArrayList<Train> trains = new ArrayList<Train>();
         Scanner scan = new Scanner(System.in);
@@ -13,6 +14,7 @@ public class Main {
 
         // Главый цикл программы
         while (active) {
+
             // Меню
             System.out.println("\nВыберите опцию:\n" +
                     "1. Добавить поезд\n" +

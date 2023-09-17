@@ -1,0 +1,118 @@
+body {
+    background: url('imges/operatorsBG.png') no-repeat center center fixed; 
+    margin: 0;
+    font-family: 'Scout Condensed Bold';
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+    opacity: 70%;
+    height: 55px;
+}
+
+.headerR6Logo {
+    margin-left: 40px;
+    max-width: 250px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.header-nav {
+    margin-left: 130px;
+    display: flex;
+    gap: 100px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    font-size: 35px;
+    color: #e8dddd;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Scout Condensed Bold';
+    src: url('Scout Condensed Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+main {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.aboutGame {
+    width: 1450px;
+    height: 600px;
+    background: #0b0b0b;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 15px; 
+}
+
+.aboutGame h1 {
+    font-size: 40px;
+    flex: 1;
+    color: #e8dddd;
+}
+
+.aboutGame img {
+    height: 105%;
+    width: auto;
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
+}
+
+.aboutOperators {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center;
+    color: #fff;
+    }
+
+.aboutOperators img {
+    max-width: 600px; 
+    height: 800px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons img {
+    max-width: 256px;
+    height: auto;
+}
+
+.icons h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.panoram{
+    display: grid;
+	grid-template-columns: repeat(5, 1fr);
+    overflow-x: hidden;
+}
+
+.panoram img{
+    height: 65%;
+    width: auto;
+}
+
+.maps p{
+    font-size: 40px;
+    flex: 1;
+    color: #e8dddd;
+}
